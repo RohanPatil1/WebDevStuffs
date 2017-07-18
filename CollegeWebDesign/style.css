@@ -1,0 +1,475 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+    width:100%;
+    
+}
+
+/* ----------------------------------------------LANDING PAGE --------------------------------------------------------------------------*/
+
+.landingpage li a:hover{
+    border-bottom: 1px black solid;
+    color:darkred;
+    font-size: 17px;
+}
+
+
+.navbar-default{
+z-index: 10;
+bbackground: -moz-linear-gradient(top,  rgba(0,0,0,0.87) 22%, rgba(0,0,0,0.76) 36%, rgba(0,0,0,0.62) 55%, rgba(0,0,0,0.48) 70%, rgba(0,0,0,0.38) 81%, rgba(0,0,0,0.34) 83%, rgba(0,0,0,0) 99%);
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.87) 22%,rgba(0,0,0,0.76) 36%,rgba(0,0,0,0.62) 55%,rgba(0,0,0,0.48) 70%,rgba(0,0,0,0.38) 81%,rgba(0,0,0,0.34) 83%,rgba(0,0,0,0) 99%);
+background: linear-gradient(to bottom,  rgba(0,0,0,0.87) 22%,rgba(0,0,0,0.76) 36%,rgba(0,0,0,0.62) 55%,rgba(0,0,0,0.48) 70%,rgba(0,0,0,0.38) 81%,rgba(0,0,0,0.34) 83%,rgba(0,0,0,0) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de000000', endColorstr='#00000000',GradientType=0 );
+
+background-repeat: no-repeat;
+
+
+
+
+width:100% !important;
+    
+}
+
+.navbar {
+    width:100%;
+}
+
+.landingpage
+{
+width: 100%;
+height: 90%;
+background: url('./images/RRC1.jpg');
+background-size: 100%;
+top:0;
+left:50%;
+margin:auto;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+.landingpage .heading {
+    text-align: center;
+    margin-top: 290px;
+    color: floralwhite;
+    
+    font-family:Poppins;
+    text-shadow: 3px 4px 10px #000000;
+}
+
+.navbar-brand img{
+    width: 290px;
+    height:50px;
+    display: inline;
+    margin-top: 14px;
+}
+
+
+
+
+ul li{
+    text-decoration: none !important;
+    display: inline;
+    margin-left: 34px;
+    color:floralwhite;
+    font-family: Open Sans;
+    font-size:16px;
+    
+    
+}
+ul{
+    float:right;
+   
+}
+
+.liitems{
+    margin-left: 600px;
+    
+}
+li a{
+    text-decoration: none !important;
+    color:floralwhite;
+}
+
+ input{
+     
+    width: 563px !important;
+    border-radius:0 !important;
+     margin-top: 30px !important;
+     
+     
+}
+
+
+.fa-search{
+    width: 10px;
+    background-color: #F50A44;
+    color: white;
+    display: inline-block;
+    
+}
+
+.inputbtn btn {
+    border-radius:0 !important;
+}
+
+.inputbtn {
+    width:50px !important;
+    background-color:#F50A44;
+    position: absolute;
+    border-radius:0 !important;
+    height:46px;
+    margin-top: 30px !important;
+    
+}
+
+.redbar {
+    background-color:#F50A44; 
+    width:100%; 
+    margin-top:139px;
+    height:68px;
+}
+
+.redbarurl {
+    margin-top:29px;
+    margin-right: 140px;
+}
+
+/* ----------------------------------------------LANDING PAGE ---CLOSE-------------------------------------------------------------------*/
+
+
+/* ----------------------------------------------FEATURES--------------------------------------------------------------------------------*/
+.features h2 {
+    font-family:Oswald;
+    letter-spacing:7px;
+    margin-left:29px;
+}
+
+
+
+
+.features .content  {
+    background-image: url(images/Jump-Start-1.jpg) ;
+    background-size: cover;
+    height: 400px;
+    width:870px;
+    
+
+}
+
+
+
+
+.features .content h3 {
+    z-index:2px;
+    color: floralwhite;
+    position: absolute;
+    top:30px;
+    left:12%;
+    font-size: 40px;
+    font-family:Poppins;
+    text-shadow: 3px 4px 10px #000000;
+    
+    
+}
+
+hr {
+  border: 0;
+    border-bottom-color: blue;
+  width: 80%;
+}
+
+.features .content p{
+    z-index:2px;
+    color: floralwhite;
+    position: absolute;
+    top:150px;
+    left:12%;
+    font-size: 15px;
+    font-family:Product Sans;
+    text-shadow: 2px 2px 7px #c6c4d3;
+}
+
+.twodivs img {
+    width: 329px;
+    margin-left: 97px;
+        
+}
+
+.twodivs h1{
+    z-index:2px;
+    color: whitesmoke;
+    position: absolute;
+    top:23px;
+    margin-left: 170px;
+    font-size: 30px;
+    font-family:Poppins;
+    
+}
+
+.twodivs p{
+    z-index:2px;
+    color:antiquewhite;
+    position: absolute;
+    top:120px;
+    margin-left: 130px;
+    font-size: 15px;
+    font-family:Poppins;
+    
+}
+
+.twodivs .twodivs1 h1{
+    
+     z-index:2px;
+    color: whitesmoke;
+    position: absolute;
+    top:200px;
+    margin-left: 170px;
+    font-size: 30px;
+    font-family:Poppins;
+    
+    
+}
+
+.twodivs .twodivs1 p{
+      z-index:2px;
+    color: antiquewhite;
+    position: absolute;
+    top:300px;
+    margin-left: 130px;
+    font-size: 15px;
+    font-family:Poppins;
+}
+/* -----------------------------------------FEATURES-CLOSE-------------------------------------------------------------------------------*/
+
+
+.campus h1 {
+    position: absolute;
+    font-family:Oswald;
+    letter-spacing:7px;
+   left:40%;
+}
+
+.campus {
+     background-image: linear-gradient(rgba(255, 255, 255,0.9),rgba(255, 255, 255,0.9)),url('images/campusimg.jpg');
+    height:100vh;
+    background-size: cover;
+    background-position:center;
+    
+        
+}
+
+.learnmore a {
+    
+    background-color: #F50A44;
+    border:16px ;
+    border-color: #F50A44;
+    border-style: solid; 
+    text-decoration: none;
+    color:floralwhite;
+    font-weight: bold;
+    z-index:3;
+    
+}
+
+.whiteborder{
+    margin-left: 10px;
+    width:123px;
+    height: 30px;
+    border:2px;
+    border-color: #F50A44;
+    border-style: solid;
+    
+    
+}
+
+.campus hr{
+
+    
+    
+    width: 300px;
+    
+    border-style:dashed;
+    
+    border:1px #a0243f solid;
+    position: absolute;
+    top:1290;
+    left:36.5%;    
+}
+
+/*--------------------------campus close------------------------------------------------------------------------------*/
+
+/*--------------------------stayuptodate------------------------------------------------------------------------------*/
+
+.update {
+    background-color: #232123;
+}
+
+
+.update h3 {
+    color:floralwhite;
+    font-family: oswald;
+    font-size: 27px;
+    
+}
+
+.update p{
+    color:darkgray;
+    font-family:Raleway;
+    font-size:10px;
+}
+
+#update input{
+    width:320px !important;
+}
+
+.update a {
+      background-color: #F50A44;
+    margin-top: -10px;
+    
+    
+    text-decoration: none;
+    color:floralwhite;
+    font-weight: bold;
+    text-align: center;
+    border:10px solid #F50A44;
+    position: absolute;
+    top:40;
+    left:390;
+    height:46px;
+    width:107px;
+}
+
+
+/*--------------------------stayuptodate-close-----------------------------------------------------------------------------*/
+
+/*--------------------------shape-----------------------------------------------------------------------------------*/
+.shape .heading h1 {
+    text-align: center;
+    color:#423F41;
+    font-size: 40px;
+}
+
+.shape hr{
+
+    
+    
+    width: 300px;
+    
+    border-style:dashed;
+    
+    border:1px #a0243f solid;
+    position: absolute;
+    top:2170;
+    left:36.5%;    
+}
+
+.comma {
+    margin-top:100px;
+}
+
+
+.quote {
+    margin-top:40px;
+    
+}
+
+.quote p{
+    color:#484848;
+    font-size: 30px;
+    font-family: Poppins;
+    
+}
+
+
+.nextbtn {
+    margin-top: 60px;
+    
+}
+
+.nextbtn a {
+    
+          
+    background-color: #F50A44;
+    text-decoration: none !important;
+    color:floralwhite !important;
+    font-weight: bold;
+    text-align: center;
+    border:20px solid #F50A44;
+   font-size: 23px;
+    height:96px;
+    width:220px;
+    
+}
+
+.fa-arrow-right {
+    color:floralwhite;
+    font-size: 20px;
+    position: absolute;
+    left:36%;
+    top:383;
+    background-color: #F50A44;
+    width:100px;
+    height:66px;
+    text-align: center;
+    border:20px solid #F50A44;
+     margin-top: 60px;
+    
+}
+
+/*--------------------------shape-close-----------------------------------------------------------------------------*/
+
+/*--------------------------Footer-----------------------------------------------------------------------------*/
+.footer {
+    height:70%;
+    width:100%;
+    background-color:#F50A44;
+    margin-top: -10px;
+    overflow: hidden;
+}
+
+
+.footer h3 {
+    color:floralwhite;
+    font-family: Oswald;
+    font-size: 34px;
+}     
+
+.footer ul {
+    text-decoration: none;
+    list-style-type: none;
+    display:block;
+}
+
+.footer ul li {
+    color:#ddc7cc;
+    font-size: 20px;
+    display:block;
+    float: right;
+}
+
+.footer img  {
+    width:470px;
+    height:200px;
+}
+
+.last_text{
+    color:white;
+    margin-top: 79px;
+}
+
+.rohan {
+    position: absolute;
+    top:3240;
+    left:70%;
+    display: inline;
+    
+}
+
+
