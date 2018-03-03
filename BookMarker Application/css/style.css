@@ -1,0 +1,11 @@
+body{
+    background-color:#a8ecff;
+}
+
+
+#title{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#383e3f;
+    font-size: 55px;
+}
