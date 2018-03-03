@@ -1,6 +1,6 @@
 document.getElementById('myForm').addEventListener('submit',saveBookmark);
 
-//Save our Bookmarks
+//Save the Bookmarks
 function saveBookmark(e)
 {
     //Get Form Values
@@ -40,7 +40,7 @@ function saveBookmark(e)
         //Put that to LocalStorage
         localStorage.setItem('bookmarks',JSON.stringify(bookmarks));
     }
-//So this if else will store our bookmarks array in the localStorage :)
+//So this if else will store our bookmarks array in the localStorage 
 
     //Clear the form inputs after submit
     document.getElementById('myForm').reset();
