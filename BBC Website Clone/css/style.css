@@ -1,0 +1,238 @@
+
+body{
+  margin: 0;
+}
+
+#topbar{
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  color: black;
+  font-family: arial,helvetica,sans-serif;
+}
+
+.fixedWidth{
+  width: 1000px;
+  margin: 0 auto; /*centers it in the div it is it */
+
+
+
+}
+
+#logo{
+  padding-top: 6px;
+  float: left; /*For the purpose of adding more divs besides the logo */
+ 
+   border-right: 1px solid #990000;
+   padding-right: 10px;
+   padding-bottom: 7px;  
+}
+
+#signin{
+  font-weight: bold;
+  padding: 10px 60px 12px 20px;
+  border-right: 1px solid #990000;
+  float: left; /* puts on same line as the logo */
+
+}
+
+#navbartop{
+  float: left;
+}
+
+#navbartop ul{
+  margin: 0;
+  padding: 0;
+}
+
+#navbartop li{
+  list-style: none;
+  font-weight: bold;
+  font-size: 0.9em;
+  border-right: 1px solid #990000;
+  height: 100%;
+  padding: 12px 15px 11px 15px;
+  float: left;
+}
+
+#searchdiv{
+  width: 162px;
+  float: left;
+  padding: 10px 0px 0px 6px;
+  color: #333;
+  font-weight: 700;
+}
+
+#searchdiv input{
+  height: 20px;
+  padding: 0px 10px 10px 7px;
+  font-size: 12px;
+  background-image:  url("https://static.bbci.co.uk/frameworks/barlesque/2.88.1/orb/4/img/orb-search-dark.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+#newsbar{
+  /*remains relative in position to its children unless specified
+  as fixed */
+  background-color: #990000;
+  width: 100%;
+  height: 90px;
+  color:white;
+  font-family: arial,helvetica,sans-serif;
+  float: left;
+}
+
+#newsbar p{
+  margin: 0;
+  padding: 5px 0 0 0;
+  
+  
+}
+
+#newsheader{
+  font-size: 3em; 
+  font-family: Arial, Helmet, Freesans, sans-serif;
+  float: left;
+
+
+}
+
+
+.break {
+  clear: both;
+}
+
+#topicnav{
+  background-color: #A91717;
+  width: 100%;
+  height: 33px;
+}
+
+#topicnav ul{
+  padding: 5px 0 0 5px;
+  margin: 5px;
+  list-style: none;
+  height: 33px;
+  
+  }
+
+#topicnav li{
+  position: relative;
+  bottom: 3px;
+  right: 13px;
+  list-style: none;
+  font-family: Arial, Helmet, Freesans, sans-serif;
+  padding: 3px 8px 10px 8px;
+  font-size: 1em;  
+  float: left;
+  border-right: 1px solid #BB4545;
+
+}
+
+.more-nav{
+background-color: white;
+  width: 100%;
+  height: 35px;
+}
+
+.more-nav ul{
+  padding: 5px 0 0 5px;
+  margin: 10px 5px 5px 5px;
+  list-style: none;
+  height: 33px;
+  
+  }
+
+#bold{
+font-weight: bold;
+font-size: 1.5em;
+}
+
+.more-nav li{
+  position: relative;
+  bottom:0px;
+  right: 13px;
+  list-style: none;
+  font-family: Arial, Helmet, Freesans, sans-serif;
+  padding: 0px 12px 0px 12px;
+  font-size: 1em;  
+  float: left;
+  border-right: 1px solid #A8C5F1;
+
+}
+
+#content{
+  width: 100%;
+  color: #505050;
+  font-size: 1em;
+  margin-left: 9px;
+}
+
+#content h1{
+  color: #1F4F82;
+  font-weight: bold;
+  font-family: Arial, Helmet, Freesans, sans-serif;
+  
+}
+
+.headlineimg{
+  float: right;
+  margin-right: 300px;
+}
+
+#sidecontent {
+  width: 385px;
+  font-size: 1em;
+  
+}
+
+#sidecontent a{
+  color: black;
+  text-decoration: none;
+}
+
+#sidecontent a:hover{
+  text-decoration: underline;
+}
+
+.links {
+  position: relative;
+  bottom: 9px;
+  line-height: 1.4em;
+}
+
+#watchlisten {
+  border-left: 2px solid #A8C5F1;
+  float: right;
+  padding-left: 25px;
+  position: relative;
+  bottom: 275px;
+  
+}
+
+#watchlisten h2{
+  color: #505050;
+  font-size: 1.846em;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 24px;
+  font-family: Arial, Helmet, Freesans, sans-serif;
+  padding-left: 6px;
+  position: relative;
+  top: -17px;
+}
+
+.watch-listen-image{
+margin-left: 10px;
+}
+
+.boxes {
+  float: right;
+  padding-right: 17px;
+
+}
+
+.live {
+  float: left;
+}
