@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:600,800');
+
+body{
+    font-family: 'Dosis',sans-serif;
+    font-size: 200%;
+    color:#fff;
+    text-shadow: 1px 1px 1px #666;
+}
+
+.navbar{
+    background-color: #297fb8;
+    border-bottom: 1px solid #5398C6;
+    padding: 1% 0;
+}
+
+
+.navbar-brand{
+    min-height:55px;
+    padding:0 15px 5px;
+}
+
+.navbar-brand img{
+    height:67px;
+    width: 217px;
+}
+
+.navbar-nav li{
+    padding-right:20px;
+}
+
+.navbar-inverse .navbar-nav li a{
+    color:#fff;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+    background-color: #5398C6;
+}
+
+.navbar-header{
+    padding-bottom: 5px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #5398C6;
+}
+
+.navbar-inverse .navbar-toggle{
+    border-color:#5398C6;
+}
+
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus{
+    border-color:#5398C6;
+}
+
+img.banner
+{
+    width:100%;
+}
+
+h1{
+    font-size: 300%;/* 3 X 16px */
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #666;
+}
+
+h2{
+    font-size: 210%;
+}
+
+h3{
+    font-size: 150%;
+    max-width: 80%;
+    margin:0 auto;/* Center */
+}
+
+p{
+    font-size: 120%;
+    padding:6%;
+}
+
+img{
+    margin:0 auto;
+}
+
+#icon{
+    max-width: 200px;
+    margin: 1% auto;
+}
+
+.social{
+    font-size: 500%;
+}
+
+.social a{
+    padding:3% 0 0 0;
+    color:#fff;
+}
+
+.social a:hover{
+    color:grey;
+    padding:0;
+    margin:0;
+}
+
+#home{
+    padding-top:60px;
+}
+
+#about{
+    padding:70px 0px;
+    background-color: #1fb8eb;
+}
+
+#features{
+    padding:70px 0 50px;
+    background-color: #ff9800;
+}
+
+#portfolio{
+    padding:70px 0 50px;
+    background-color:#00b2ca;
+}
+
+
+#connect{
+    padding:0 0 12%;
+    background-color: #673ab7;
+}
+
+.row{
+    margin:0;
+}
+
+@media (max-width:768px)
+{
+    h1{
+        font-size: 170%;
+    }
+    h2{
+        font-size: 160%;
+    }
+    h3{
+        font-size: 120%;
+        max-width: 90%;
+    }
+    p{
+        padding-top:3%;
+        font-size: 100%;
+    }
+    img#code{
+        max-width: 160px;
+    }
+
+    .col-sm-4 #icon{
+        max-width: 110px;
+    }
+
+    .col-md-4 #icon{
+        max-width:110px;
+        padding-bottom: 8%;
+    }
+
+    .social{
+        font-size:200%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flat Responsive Bootstrap Website Tutorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="scrolling.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+     $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && ( $(e.target).attr('class') != 'dropdown-toggle' ) ) {
+        $(this).collapse('hide');
+    }
+    });
+  </script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                   
+                </button>
+                <a href="#" class="navbar-brand">
+                    <img src="img/logo2.png" alt="">
+                </a>
+            </div><!--End of navbar-header -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                    
+                </ul>
+            </div><!--End of navbar collapse-->
+
+        </div><!--End of container-->
+    </nav><!--End Nav-->
+
+    <div id="home">
+        <img src="img/desktop.png" class="banner" alt="">
+    </div><!--End home-->
+
+    <div id="about" class="container-fluid text-center">
+            <h1>Welcome to my Website</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Auteme facilis! Consequuntur quam harum officiis sed reiciendis quaerat est fugiat? At ipsum asperiores consectetur.</h3>
+            <br><br><!--Line Break-->
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias excepturi ullam inventore illo facilis incidunt earum a voluptatem. Laboriosam aspernatur assumenda repellat natus impedit incidunt ad quidem distinctio doloremque sequi!</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/code.png" alt="" id="code">
+                </div>
+            </div><!--End Row-->
+    <br><!--Line Break-->
+    <h3>"This is the best website course ever!" -J.Thomson</h3>
+
+    </div><!--End about container-->
+    <img src="img/charts.png" class="banner">
+
+    <!--Features-->
+    <div id="features" class="container-fluid text-center">
+
+        <h2>Get Know Our Features</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/html5.png" id="icon" alt="">
+                <h3>HTML5</h3>
+            </div>
+            <div class="col-md-4">
+                    <img src="img/bootstrap.png" id="icon" alt="">
+                    <h3>Bootstrap</h3>
+            </div>
+            <div class="col-md-4">
+                    <img src="img/css3.png" id="icon" alt="">
+                    <h3>CSS3</h3>
+                    <br><br>
+            </div>
+            
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rerum voluptas temporibus vitae dolore totam deserunt! Possimus incidunt quaerat ipsam magnam ali Ullam, quam cupiditate.</h3>
+        </div><!--End of Row-->
+        
+    </div><!--End Of Feature Container-->
+    <img src="img/people.png" class="banner" alt=""><!--Feature Image-->
+
+
+
+    <!--Portfolio-->
+    <div id="portfolio" class="container-fluid text-center">
+        <h2>Check out our Portfolio</h2>
+        <br><br>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/icons/camera.png" id="icon" alt="">
+            </div>
+
+            <div class="col-md-4">
+                    <img src="img/icons/mic.png" id="icon" alt="">
+            </div>
+
+            <div class="col-md-4">
+                        <img src="img/icons/phone.png" id="icon" alt="">
+            </div>
+
+            <div class="col-md-4"><!---Hidden column for small screens-->
+                    <img src="img/icons/calendar.png" class="hidden-sm hidden-xs" id="icon" alt="">
+            </div>
+
+            <div class="col-md-4"><!---Hidden column for small screens-->
+                <img src="img/icons/tv.png" class="hidden-sm hidden-xs" id="icon" alt="">
+            </div>
+
+            <div class="col-md-4"><!---Hidden column for small screens-->
+                <img src="img/icons/clock.png" class="hidden-sm hidden-xs" id="icon" alt="">
+            </div>
+
+
+        </div><!--End of row-->
+    </div><!--End of Portfolio Container-->
+
+    <img src="img/social.png" class="banner" alt=""><!--Portfolio_img-->
+
+    <!--Connect-->
+
+    <footer id="connect" class="container-fluid text-center">
+        <div class="row">
+            <h2>Connect</h2>
+            <div class="social">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div><!--End of Row-->
+    </footer><!--End of Connect Container-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
